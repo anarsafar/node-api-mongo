@@ -1,0 +1,21 @@
+{
+  "name": "node-express-task",
+  "version": "1.0.0",
+  "description": "A simple node application for api routing using mock data",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --ext js server.js"
+  },
+  "author": "Anar Safarov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
